@@ -1,7 +1,6 @@
 # Module-3-Challenge
 
-## On this module challenge we had to create a randomize password generator which was affected with the inputs or decisions of the user, wheter he/she wants it to have
-uppercases, lowercases, numeric characters or special characters.
+## On this module challenge we had to create a randomize password generator which was affected with the inputs or decisions of the user, wheter he/she wants it to have uppercases, lowercases, numeric characters or special characters.
 
 # User Story
 
