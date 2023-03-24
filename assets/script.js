@@ -6,7 +6,7 @@ generateBtn.addEventListener("click", function(e){
     var char = "";
     var password = "";
 
-    // While loop for character lenght 
+    // While loop for character lenght parameters passLenght >= 8 and <= 128
     while(true) {
     passLenght = prompt("Choose a password lenght between 8 and 128 character", "");
     if (!passLenght) {
@@ -47,7 +47,7 @@ generateBtn.addEventListener("click", function(e){
         alert("Your password will contain uppercases");
         var char = char.concat(upper);
     }
-    console.log(char)
+    console.log(char);
     // --------------------------------------------------------------
 
     // Numeric
@@ -85,7 +85,7 @@ generateBtn.addEventListener("click", function(e){
     }
     // ----------------------------------------------------------------
 
-    // Generate randome password with the char var 
+    // Generate random password with the char var 
     for (var i = 0; i <= passLenght; i++) {
         var randomNumber = Math.floor(Math.random()*char.length);
         password += char.substring(randomNumber, randomNumber +1); 
